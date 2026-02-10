@@ -1,0 +1,10 @@
+[2026-02-10 04:28:55] [INFO] Starting notebook 02: Baseline clustering
+[2026-02-10 04:29:52] [INFO] Saved nb02_baseline_similarity_matrices.png
+[2026-02-10 04:29:52] [INFO] Saved baseline_top_genes.npy
+[2026-02-10 04:29:52] [INFO] Saved baseline_similarity_pearson.npy
+[2026-02-10 04:29:52] [INFO] Saved baseline_similarity_spearman.npy
+[2026-02-10 04:29:52] [INFO] Saved baseline_similarity_cosine.npy
+[2026-02-10 04:29:52] [INFO] Saved baseline_labels_pearson.npy
+[2026-02-10 04:29:52] [INFO] Saved baseline_labels_spearman.npy
+[2026-02-10 04:29:52] [INFO] Saved baseline_labels_cosine.npy
+[2026-02-10 04:29:52] [INFO] Saved baseline_metrics.csv

@@ -1,0 +1,5 @@
+[2026-02-10 05:33:15] [INFO] Starting notebook 03: Spatial weighted similarity
+[2026-02-10 05:35:18] [INFO] Saved nb03_weighted_similarity_heatmap.png
+[2026-02-10 05:35:19] [INFO] Saved top_genes.npy
+[2026-02-10 05:35:19] [INFO] Saved similarity_matrix.npy
+[2026-02-10 05:35:19] [INFO] Saved cluster_labels.npy

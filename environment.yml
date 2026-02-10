@@ -1,0 +1,24 @@
+name: spatial-clustering
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - scanpy
+  - squidpy
+  - libpysal
+  - esda
+  - igraph
+  - leidenalg
+  - notebook
+  - jupyterlab
+  - pip
+  - nbstripout
+  - pip:
+      - anndata

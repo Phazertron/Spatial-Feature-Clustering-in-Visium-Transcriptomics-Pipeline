@@ -1,0 +1,5 @@
+[2026-02-10 04:27:47] [INFO] Starting notebook 01: Data exploration
+[2026-02-10 04:27:48] [INFO] Saved nb01_tissue_spots.png
+[2026-02-10 04:28:19] [INFO] Saved nb01_dist_counts_per_spot.png
+[2026-02-10 04:28:20] [INFO] Saved nb01_dist_counts_per_gene.png
+[2026-02-10 04:28:20] [INFO] Saved nb01_dist_genes_per_spot.png

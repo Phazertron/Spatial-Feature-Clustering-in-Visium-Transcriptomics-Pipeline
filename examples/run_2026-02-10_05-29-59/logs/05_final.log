@@ -1,0 +1,7 @@
+[2026-02-10 05:40:56] [INFO] Starting notebook 05: Final plots
+[2026-02-10 05:41:25] [INFO] Saved all_similarity_matrices.png
+[2026-02-10 05:41:26] [INFO] Saved ari_nmi_matrices.png
+[2026-02-10 05:41:26] [INFO] Saved spatial_coherence_bar.png
+[2026-02-10 05:41:28] [INFO] Saved nb05_cluster_spatial_profiles.png
+[2026-02-10 05:42:12] [INFO] Saved cluster_summary.csv
+[2026-02-10 05:42:13] [INFO] Saved weighted_similarity_matrix.png

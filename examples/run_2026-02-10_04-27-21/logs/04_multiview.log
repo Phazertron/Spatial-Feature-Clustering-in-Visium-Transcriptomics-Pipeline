@@ -1,0 +1,13 @@
+[2026-02-10 04:32:40] [INFO] Starting notebook 04: Multi-view clustering
+[2026-02-10 04:35:43] [INFO] Saved nb04_ari_nmi_heatmaps.png
+[2026-02-10 04:36:33] [INFO] Saved top_genes_multiview.npy
+[2026-02-10 04:36:33] [INFO] Saved similarity_expression.npy
+[2026-02-10 04:36:33] [INFO] Saved similarity_spatial.npy
+[2026-02-10 04:36:33] [INFO] Saved similarity_mog.npy
+[2026-02-10 04:36:33] [INFO] Saved similarity_weighted.npy
+[2026-02-10 04:36:33] [INFO] Saved cluster_labels_expression.npy
+[2026-02-10 04:36:33] [INFO] Saved cluster_labels_spatial.npy
+[2026-02-10 04:36:33] [INFO] Saved cluster_labels_mog.npy
+[2026-02-10 04:36:33] [INFO] Saved cluster_labels_weighted.npy
+[2026-02-10 04:36:33] [INFO] Saved ari_matrix.csv
+[2026-02-10 04:36:33] [INFO] Saved nmi_matrix.csv

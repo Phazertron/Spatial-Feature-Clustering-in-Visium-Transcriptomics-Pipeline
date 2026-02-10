@@ -1,0 +1,7 @@
+[2026-02-10 05:42:45] [INFO] Starting notebook 06: Sensitivity analysis
+[2026-02-10 05:42:56] [INFO] Saved resolution_optimization.png
+[2026-02-10 06:26:17] [INFO] Saved weight_sensitivity_heatmaps.png
+[2026-02-10 06:33:47] [INFO] Saved resolution_comparison.png
+[2026-02-10 06:33:48] [INFO] Saved pca_variance_explained.png
+[2026-02-10 06:33:48] [INFO] Saved sensitivity_results.npy
+[2026-02-10 06:33:48] [INFO] Saved optimized_resolutions.npy

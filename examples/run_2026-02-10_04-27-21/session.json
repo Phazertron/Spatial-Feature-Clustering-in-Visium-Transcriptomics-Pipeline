@@ -1,0 +1,47 @@
+{
+  "session_id": "run_2026-02-10_04-27-21",
+  "profile": "default",
+  "dataset_path": "data/DLPFC-151673",
+  "description": "Full pipeline run with default profile",
+  "start_time": "2026-02-10T04:27:21.307780",
+  "config": {
+    "dataset_path": "data/DLPFC-151673",
+    "clustering": {
+      "method": "louvain",
+      "resolution": 1.0,
+      "random_state": 0,
+      "optimize_resolution": false,
+      "resolution_range": [
+        0.3,
+        0.5,
+        0.6,
+        0.7,
+        0.8,
+        0.9,
+        1.0,
+        1.2,
+        1.5,
+        2.0
+      ]
+    },
+    "similarity": {
+      "weights": {
+        "alpha": 0.5,
+        "beta": 0.3,
+        "gamma": 0.2
+      }
+    },
+    "preprocessing": {
+      "n_top_genes": 300,
+      "min_gene_expression": 300,
+      "n_top_genes_hvg": 3000,
+      "pca_components": 50
+    },
+    "evaluation": {
+      "n_neighbors": 6,
+      "use_pca_for_coherence": false
+    }
+  },
+  "end_time": "2026-02-10T05:29:56.543723",
+  "status": "completed"
+}

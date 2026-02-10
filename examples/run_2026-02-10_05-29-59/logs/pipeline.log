@@ -1,0 +1,72 @@
+[2026-02-10 05:29:59] [pipeline] [INFO] Starting pipeline with profile: optimized
+[2026-02-10 05:29:59] [pipeline] [INFO] Session ID: run_2026-02-10_05-29-59
+[2026-02-10 05:29:59] [pipeline] [INFO] [1/6] Running 01_explore_dataset.ipynb...
+[2026-02-10 05:30:28] [INFO] Starting notebook 01: Data exploration
+[2026-02-10 05:30:30] [INFO] Saved nb01_tissue_spots.png
+[2026-02-10 05:31:03] [INFO] Saved nb01_dist_counts_per_spot.png
+[2026-02-10 05:31:04] [INFO] Saved nb01_dist_counts_per_gene.png
+[2026-02-10 05:31:04] [INFO] Saved nb01_dist_genes_per_spot.png
+[2026-02-10 05:31:14] [pipeline] [INFO] OK! 01_explore_dataset.ipynb completed successfully
+[2026-02-10 05:31:14] [pipeline] [INFO] [2/6] Running 02_baseline.ipynb...
+[2026-02-10 05:31:42] [INFO] Starting notebook 02: Baseline clustering
+[2026-02-10 05:32:43] [INFO] Saved nb02_baseline_similarity_matrices.png
+[2026-02-10 05:32:44] [INFO] Saved baseline_top_genes.npy
+[2026-02-10 05:32:44] [INFO] Saved baseline_similarity_pearson.npy
+[2026-02-10 05:32:44] [INFO] Saved baseline_similarity_spearman.npy
+[2026-02-10 05:32:44] [INFO] Saved baseline_similarity_cosine.npy
+[2026-02-10 05:32:44] [INFO] Saved baseline_labels_pearson.npy
+[2026-02-10 05:32:44] [INFO] Saved baseline_labels_spearman.npy
+[2026-02-10 05:32:44] [INFO] Saved baseline_labels_cosine.npy
+[2026-02-10 05:32:44] [INFO] Saved baseline_metrics.csv
+[2026-02-10 05:32:47] [pipeline] [INFO] OK! 02_baseline.ipynb completed successfully
+[2026-02-10 05:32:47] [pipeline] [INFO] [3/6] Running 03_spatial_weighted_similarity.ipynb...
+[2026-02-10 05:33:15] [INFO] Starting notebook 03: Spatial weighted similarity
+[2026-02-10 05:35:18] [INFO] Saved nb03_weighted_similarity_heatmap.png
+[2026-02-10 05:35:19] [INFO] Saved top_genes.npy
+[2026-02-10 05:35:19] [INFO] Saved similarity_matrix.npy
+[2026-02-10 05:35:19] [INFO] Saved cluster_labels.npy
+[2026-02-10 05:35:22] [pipeline] [INFO] OK! 03_spatial_weighted_similarity.ipynb completed successfully
+[2026-02-10 05:35:22] [pipeline] [INFO] [4/6] Running 04_multiview_clustering.ipynb...
+[2026-02-10 05:35:51] [INFO] Starting notebook 04: Multi-view clustering
+[2026-02-10 05:39:27] [INFO] Saved nb04_ari_nmi_heatmaps.png
+[2026-02-10 05:40:24] [INFO] Saved top_genes_multiview.npy
+[2026-02-10 05:40:24] [INFO] Saved similarity_expression.npy
+[2026-02-10 05:40:24] [INFO] Saved similarity_spatial.npy
+[2026-02-10 05:40:24] [INFO] Saved similarity_mog.npy
+[2026-02-10 05:40:24] [INFO] Saved similarity_weighted.npy
+[2026-02-10 05:40:24] [INFO] Saved cluster_labels_expression.npy
+[2026-02-10 05:40:24] [INFO] Saved cluster_labels_spatial.npy
+[2026-02-10 05:40:24] [INFO] Saved cluster_labels_mog.npy
+[2026-02-10 05:40:24] [INFO] Saved cluster_labels_weighted.npy
+[2026-02-10 05:40:24] [INFO] Saved ari_matrix.csv
+[2026-02-10 05:40:24] [INFO] Saved nmi_matrix.csv
+[2026-02-10 05:40:28] [pipeline] [INFO] OK! 04_multiview_clustering.ipynb completed successfully
+[2026-02-10 05:40:28] [pipeline] [INFO] [5/6] Running 05_final_plots.ipynb...
+[2026-02-10 05:40:56] [INFO] Starting notebook 05: Final plots
+[2026-02-10 05:41:25] [INFO] Saved all_similarity_matrices.png
+[2026-02-10 05:41:26] [INFO] Saved ari_nmi_matrices.png
+[2026-02-10 05:41:26] [INFO] Saved spatial_coherence_bar.png
+[2026-02-10 05:41:28] [INFO] Saved nb05_cluster_spatial_profiles.png
+[2026-02-10 05:42:12] [INFO] Saved cluster_summary.csv
+[2026-02-10 05:42:13] [INFO] Saved weighted_similarity_matrix.png
+[2026-02-10 05:42:17] [pipeline] [INFO] OK! 05_final_plots.ipynb completed successfully
+[2026-02-10 05:42:17] [pipeline] [INFO] [6/6] Running 06_sensitivity_analysis.ipynb...
+[2026-02-10 05:42:45] [INFO] Starting notebook 06: Sensitivity analysis
+[2026-02-10 05:42:56] [INFO] Saved resolution_optimization.png
+[2026-02-10 06:26:17] [INFO] Saved weight_sensitivity_heatmaps.png
+[2026-02-10 06:33:47] [INFO] Saved resolution_comparison.png
+[2026-02-10 06:33:48] [INFO] Saved pca_variance_explained.png
+[2026-02-10 06:33:48] [INFO] Saved sensitivity_results.npy
+[2026-02-10 06:33:48] [INFO] Saved optimized_resolutions.npy
+[2026-02-10 06:33:52] [pipeline] [INFO] OK! 06_sensitivity_analysis.ipynb completed successfully
+[2026-02-10 06:33:52] [pipeline] [INFO] 
+============================================================
+[2026-02-10 06:33:52] [pipeline] [INFO] Pipeline execution completed
+[2026-02-10 06:33:52] [pipeline] [INFO]   Succeeded: 6/6
+[2026-02-10 06:33:52] [pipeline] [INFO]   Failed: 0/6
+[2026-02-10 06:33:52] [pipeline] [INFO] ============================================================
+
+[2026-02-10 06:33:52] [pipeline] [INFO] Generating report...
+[2026-02-10 06:33:56] [pipeline] [INFO] OK! Report generated successfully
+[2026-02-10 06:33:56] [pipeline] [INFO] Updating optimal configuration from sensitivity analysis...
+[2026-02-10 06:33:56] [pipeline] [INFO] OK! Optimal configuration updated in config.yaml

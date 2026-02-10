@@ -1,0 +1,24 @@
+numpy>=1.24              # numerical computing
+scipy>=1.10              # math, sparse matrices
+pandas>=2.0              # dataframes
+matplotlib>=3.7          # plotting
+
+scanpy>=1.9              # AnnData, HVG, Visium loading
+squidpy>=1.3             # spatial plots, spatial graphs
+
+scikit-learn>=1.3        # clustering, metrics
+networkx>=3.0            # graph analysis for Louvain clustering
+
+libpysal>=4.7            # spatial weights
+esda>=2.5                # Moran's I, Geary's C
+
+igraph>=0.10             # Leiden clustering (optional)
+leidenalg>=0.10          # Leiden algorithm (optional)
+
+# Configuration and reporting
+pyyaml>=6.0              # configuration file parsing
+weasyprint>=60.0         # PDF report generation
+nbconvert>=7.0           # notebook execution for pipeline
+
+# Development tools
+nbstripout>=0.6          # strip notebook outputs before git commits

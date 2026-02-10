@@ -1,0 +1,33 @@
+{
+  "session_id": "run_2026-02-10_04-27-21",
+  "profile": "default",
+  "notebooks": [
+    {
+      "notebook": "01_explore_dataset.ipynb",
+      "status": "success"
+    },
+    {
+      "notebook": "02_baseline.ipynb",
+      "status": "success"
+    },
+    {
+      "notebook": "03_spatial_weighted_similarity.ipynb",
+      "status": "success"
+    },
+    {
+      "notebook": "04_multiview_clustering.ipynb",
+      "status": "success"
+    },
+    {
+      "notebook": "05_final_plots.ipynb",
+      "status": "success"
+    },
+    {
+      "notebook": "06_sensitivity_analysis.ipynb",
+      "status": "success"
+    }
+  ],
+  "total": 6,
+  "succeeded": 6,
+  "failed": 0
+}
